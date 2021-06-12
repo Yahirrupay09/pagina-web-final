@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar-default{
+	background-color: black;
+	border: 0px;
+	margin-bottom: 0px;
+	color: #FFFFFF;
+}
+
+.navbar{
+	border-radius: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.carrosuel-caption{
+     background-color: rgba(0,0,0,0.5);
+     margin-bottom: 40px;
+}
+
+
+.espacio{
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+.pie01{
+	background-color:rgba(70,70,70,1.00);
+	color: rgba(255,255,255,1.00);
+	margin-top: 60px;
+}
+
+.pie01 a{
+	color: rgba(255,255,255,1.00);
+}
+
+.pie01 a:hover{
+	color:black;
+}
+
+.pie02{
+	background-color:black;
+	color: rgba(255,255,255,1.00);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 750px){
+	.carousel-caption{
+		background-color: transparent
+	}
+}
+	
+
+/*Estilos de Titulos*/
+
+#titulo{
+	width: 100%;
+	background-color:rgba(41,39,39,1.00);
+	height: 130px;
+	background-image: url(../IMAGENES/creatividad-unir.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: table;
+}
+
+.subtitulo{
+	color: rgba(255,255,255,1.00);
+	margin: auto;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	
+}
+
